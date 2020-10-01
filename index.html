@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Page showcasing the SpaceX mission programs and various filters to see different missions.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceX Launch programs</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <section class="main-container">
+        <div class="spaceX-launch-program">SpaceX Launch programs</div>
+        <section class="filters-container">
+            <h2 class="filters-main-heading">Filters</h2>
+            <div class="launch-year">
+                <h3 class="launch-yr-head">Launch Year</h3>
+                <div class="launch-yr-buttons">
+                    <input type="radio" id="2006" name="launch-yr-btn" value="2006">
+                    <label for="2006">2006</label><br>
+                    <input type="radio" id="2007" name="launch-yr-btn" value="2007">
+                    <label for="2007">2007</label><br>
+                    <input type="radio" id="2008" name="launch-yr-btn" value="2008">
+                    <label for="2008">2008</label>
+                    <input type="radio" id="2009" name="launch-yr-btn" value="2009">
+                    <label for="2009">2009</label><br>
+                    <input type="radio" id="2010" name="launch-yr-btn" value="2010">
+                    <label for="2010">2010</label><br>
+                    <input type="radio" id="2011" name="launch-yr-btn" value="2011">
+                    <label for="2011">2011</label>
+                    <input type="radio" id="2012" name="launch-yr-btn" value="2012">
+                    <label for="2012">2012</label><br>
+                    <input type="radio" id="2013" name="launch-yr-btn" value="2013">
+                    <label for="2013">2013</label><br>
+                    <input type="radio" id="2014" name="launch-yr-btn" value="2014">
+                    <label for="2014">2014</label>
+                    <input type="radio" id="2015" name="launch-yr-btn" value="2015">
+                    <label for="2015">2015</label><br>
+                    <input type="radio" id="2016" name="launch-yr-btn" value="2016">
+                    <label for="2016">2016</label><br>
+                    <input type="radio" id="2017" name="launch-yr-btn" value="2017">
+                    <label for="2017">2017</label>
+                    <input type="radio" id="2018" name="launch-yr-btn" value="2018">
+                    <label for="2018">2018</label><br>
+                    <input type="radio" id="2019" name="launch-yr-btn" value="2019">
+                    <label for="2019">2019</label><br>
+                    <input type="radio" id="2020" name="launch-yr-btn" value="2020">
+                    <label for="2020">2020</label>
+                </div>
+            </div>
+            <div class="filter-lower">
+                <div class="successfull-launch">
+                    <h3 class="successfull-launch-head">Successful Launch</h3>
+                    <div class="launch-success-buttons">
+                    <input type="radio" id="True-launch" name="success-launch-btn" value="True">
+                    <label for="True-launch">True</label><br>
+                    <input type="radio" id="False-launch" name="success-launch-btn" value="False">
+                    <label for="False-launch">False</label><br>
+                    </div>
+                </div>
+                <div class="successfull-land">
+                    <h3 class="successfull-land-head">Successful Land</h3>
+                    <div class="land-success-buttons">
+                    <input type="radio" id="True-land" name="success-land-btn" value="True">
+                    <label for="True-land">True</label><br>
+                    <input type="radio" id="False-land" name="success-land-btn" value="False">
+                    <label for="False-land">False</label><br>
+                    </div>
+                </div>
+                <button type="button" class="spaceX-button">Clear All</button>
+            </div>
+        </section>
+        <section class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></section>
+        <section class="cards-container"></section>
+        <footer class="aboutUs">
+            <div class="developer-details">
+                <span class="developer">Developed by:</span>
+                <span class="developer-name">Surabhi Aggrawal</span>
+            </div>
+        </footer>
+    </section>
+</body>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="build/app.bundle.js"></script>
+</html>
