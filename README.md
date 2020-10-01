@@ -18,6 +18,10 @@ For the development of this website, I have used **JavaScript, jQuery, Html5 and
 I have used **Webpack** and **Babel** for bundling and transpiling my code for ES5 compatibility.
 I have used **Node package manager(NPM)** for installing various dependencies.
 
+# Heroku link-
+https://spacex-mission-program.herokuapp.com/
+
+# Lighthouse Scores
 Lighthouse score on my local server (With **100% Performance Score**):  
 
 ![alt text](https://github.com/surabhiaggrawal/SpaceX-website/blob/main/Lighthouse_local_server.PNG?raw=true)
