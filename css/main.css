@@ -256,8 +256,8 @@ h1, h2, h3 {
     margin: 2% auto; }
   .filters-container {
     flex-basis: 24%;
-    max-height: 620px;
-    padding: 8px; }
+    max-height: 550px;
+    padding: 8px 8px 20px;}
   .cards-container {
     flex-basis: 71%;
     padding: 0 0 0 13px;
@@ -282,6 +282,7 @@ h1, h2, h3 {
   .developer {
     font-size: 0.75em; }
   .filters-container {
+    max-height: 565px;
     flex-basis: 18%; }
   .cards-container {
     flex-basis: 79%; }

@@ -303,8 +303,8 @@
 
     .filters-container {
         flex-basis: 24%;
-        max-height: 620px;
-        padding: 8px;
+        padding: 8px 8px 20px;
+        max-height: 550px;
     }
 
     .cards-container {
@@ -348,6 +348,7 @@
     }
 
     .filters-container {
+        max-height: 565px;
         flex-basis: 18%;
     }
 
