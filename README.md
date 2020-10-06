@@ -21,6 +21,10 @@ I have used **Node package manager(NPM)** for installing various dependencies.
 # Heroku link-
 https://spacex-mission-program.herokuapp.com/
 
+# Set Up -
+1. Download the code from the repository.
+2. Run on any local Server, some ways could be to use editor's live server or by using some npm package like npm live-server.
+
 # Lighthouse Scores
 Lighthouse score on my local server (With **100% Performance Score**):  
 
