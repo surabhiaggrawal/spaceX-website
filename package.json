@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "webpack": "webpack",
+    "build": "webpack -p",
+    "watch": "wepack --watch",
     "start": "http-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
